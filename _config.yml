@@ -26,4 +26,4 @@ github_username:  newick
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: rando-inside-theme
