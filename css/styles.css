@@ -41,7 +41,8 @@ body {
   padding: 20px 0; }
   .site-footer .wrapper {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-wrap: wrap; }
 
 main .wrapper {
   padding: 20px;
