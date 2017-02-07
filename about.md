@@ -1,15 +1,19 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: À propos
+permalink: /a-propos/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+[entre-quote.com](http://entre-quote.com) est le jeu de mots qui me sert de couverture pour communiquer sur mes prestations en intégration web.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+J'ai donc décider de rester dans la thématique en appelant le blog un livre de recettes.
+Certaines seront expériementales, d'autres testées et approuvées, d'autres mauvaises et il y aura surement des digressions. 
+Et qui sait, il y aura peut-être de la vraie nourriture un jour.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Sinon je me présente, Erick, intégrateur web qui veut apprendre et partager.
+
+J'ai aussi co-créé et je continue de co-gérer un espace de coworking associatif et participatif à Montpellier : [Cowork'in Montpellier](http://coworkinmontpellier.org).
+
+Vous pouvez me suivre sur [Twitter](https://twitter.com/newick), voir quelques trucs que je fais sur [Github](https://github.com/newick) et en général me trouver sous le pseudo __newick__.
+
+Pour me contacter : [erick@entre-quote.com](mailto:erick@entre-quote.com).
