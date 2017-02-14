@@ -19,14 +19,14 @@ Des fois on s'installe et finalement reste peu car trop bruyant, ferme bientôt,
 
 L'idée de Walking Dev est donc d'apprendre en parcourant une ville.
 
-Chaque session a un théme annoncé à l'avance sur le [site](http://walkingdev.fr), par exemple : ELM, Github, Lean, OpenStreetMap, se nourrir en mode nomade, etc.<br>
+Chaque session a un thème annoncé à l'avance sur le [site](http://walkingdev.fr), par exemple : ELM, Github, Lean, OpenStreetMap, se nourrir en mode nomade, etc.<br>
 Tout sujet peut faire l'objet d'un Walking Dev.
 
 Les inscrits se retrouvent dans un café le matin et l'échange autour du thème commence.<br>
 On change de lieu régulièrement, les déplacements font l'objet d'échanges tout en gardant en tête le thème.<br>
-Et le soir on finit par une retrospective de ce qui a marché / pas marché, ce qu'il faut garder, ce qu'il faut améliorer avec des propositions.
+Et le soir on finit par une rétrospective de ce qui a marché / pas marché, ce qu'il faut garder, ce qu'il faut améliorer avec des propositions.
 
-L'idée de base est qu'il n'y a pas de status d'enseignants / apprenants mais que tout le monde apprene des autres. Il n'y a pas de plan de la journée. On n'est pas obligé de rester tout le groupe sur une seule problématique.
+L'idée de base est qu'il n'y a pas de statut d'enseignants / apprenants mais que tout le monde apprenne des autres. Il n'y a pas de plan de la journée. On n'est pas obligé de rester tout le groupe sur une seule problématique.
 
 ## Mon premier Walking Dev
 
@@ -37,7 +37,7 @@ Loïc a déjà participé à pas mal d'autres épisodes en tant que volontaire p
 
 Le choix du thème a été simple : Flexbox. Il s'agit de la technique de positionnement CSS qui est la plus efficace, pour l'instant. Un ou plusieurs billets prochains en parleront.
 
-Loïc et moi faisont de l'intégration, on a déjà croisé Flexbox sur notre chemin, ça nous a plu, on a eu envie de partager.
+Loïc et moi faisons de l'intégration, on a déjà croisé Flexbox sur notre chemin, ça nous a plu, on a eu envie de partager.
 
 ### Choix de la date
 
@@ -52,9 +52,9 @@ La date a finalement été arbitrairement mise au jeudi 26 janvier.
 
 On a déjà choisi la simplicité en le faisant à Montpellier. On y habite tous les 2 et on commence à connaitre pas mal de lieux différents.
 
-Notre base de départ a été le café Bun car il a l'avantage d'ouvrir tôt, de servir du très bon café et des patisseries et d'être sympa.
+Notre base de départ a été le café Bun car il a l'avantage d'ouvrir tôt, de servir du très bon café et des pâtisseries et d'être sympa.
 
-Pour la suite, on avait plusieurs lieux en tête. On en reparle dans la partie résumé de la journée
+Pour la suite, on avait plusieurs lieux en tête. On en reparle dans la partie résumée de la journée
 
 ### Communication
 
@@ -73,7 +73,7 @@ Le rendez-vous se transforme en retrouvailles autour de café et de cookies, on 
 
 Après avoir échanger en marchant sur ce qu'on attendait de la journée, les idées qu'ils avaient sur Flexbox et la théorie. On arrive à [l'Instant Thé](https://www.facebook.com/instantthemtp/).<br>
 Pendant toute cette session, on va découvrir les valeurs de bases des propriétés et leurs impacts sur l'affichage.<br>
-On se passe la parole avec Loïc, les 3 autres se relaient derrière l'ordi branché au vidéo-projecteur, et posent des questions.
+On se passe la parole avec Loïc, les 3 autres se relaient derrière l'ordi branché au vidéoprojecteur, et posent des questions.
 
 Midi approchant, on reste dans la même rue mais plus bas, direction [la Coutinelle](http://www.lacoutinelle.fr/).<br>
 On est connu, ils ne sont pas choqués de nous voir ressortir un ordi et un vidéo-proj en attendant que nos commandes arrivent. 
@@ -97,10 +97,10 @@ Idée inspirée par Julia dans son [billet de retours sur le Walking Dev Lean](h
 
 Malgré le fait de ne pas avoir la séparation complète apprenant / enseignant, la journée a été riche en découvertes, questions auxquels on ne savait pas forcément répondre et donc plein de nouvelles choses à creuser et proposer.
 
-Pourquoi pas essayer de construire une formation plus complête sur le sujet, il y a de la matière, beaucoup de ressources en ligne mais peu de formations existantes.
+Pourquoi pas essayer de construire une formation plus complète sur le sujet, il y a de la matière, beaucoup de ressources en ligne mais peu de formations existantes.
 
 Le format est en amélioration continue, je compte bien être présents autant que possible aux suivants.
 
-En tout cas merci à Loïc pour la motivation et la co-animation, Stéphane pour le concept et le matériel sur place, Bénédicte et Sabine pour la patience, les questions et les retours !
+En tout cas merci à Loïc pour la motivation et la Co-animation, Stéphane pour le concept et le matériel sur place, Bénédicte et Sabine pour la patience, les questions et les retours !
 
 Si vous avez envie d'en créer, de participer aux suivants, une seule adresse : [walkingdev.fr](http://walkingdev.fr)
