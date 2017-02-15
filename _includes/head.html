@@ -10,7 +10,10 @@
   {% assign full_base_url = custom_url | default: site.github.url %}
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: full_base_url }}">
   <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: full_base_url }}">
+  {% if page.extra_css %}
+    <link rel="stylesheet" href="{{full_base_url}}/css/{{ page.extra_css }}.css">
+  {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: full_base_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: full_base_url }}">
-  
+
 </head>

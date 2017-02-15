@@ -22,8 +22,7 @@ C'est sauvegardé sur Github, sur ma machine, ça devrait le faire.
 
 ## On parle design ?
 
-Oui je sais, c'est presque celui de base, mais faut bien se lancer. 
+Oui je sais, c'est presque celui de base, mais faut bien se lancer.
 Le thème évoluera en fonction de mes envies, tests, idées.
 
 Bref, on verra comment ça évolue, à quelle fréquence ça sera mis à jour :)
-
