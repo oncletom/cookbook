@@ -1,3 +1,315 @@
+main nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+/*  background-color: #EBEEF1;*/
+  height: 100%;
+}
+.row0 {
+  display: flex;
+/*  background-color: #EBEEF1;*/
+  background: none;
+  height: 100%;
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+  font-size: 0.7em;
+  box-shadow: none;
+}
+.row0 li {
+  background-color: rgba(66, 139, 202, 0.5);
+}
+.activ {
+  background-color: rgba(66, 139, 202, 0.9)!important;
+}
+
+section {
+  padding: 5em 15em 7em;
+  background-color: #FFFFFF;
+  border-bottom: 1em solid #EBEEF1;
+}
+
+ul {
+  display: flex;
+  background-color: lightgrey;
+  margin-bottom: 20px;
+  list-style:none;
+  border-radius: 0.25em;
+  padding: 0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+ul p {
+  margin-left: 1em;
+  text-transform: uppercase;
+  font-size: 1.15em;
+}
+code {
+  font-size: 1.3em;
+}
+
+li,
+.enfant {
+  padding: 0.5em;
+  background-color: #428BCA;
+  border-radius: 0.5em;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+.enfant {
+  display: inline-block;
+}
+main a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+main p a {
+  color: #286ca7;
+  font-weight: bold;
+}
+header li:hover {
+  background-color: #286ca7;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
 h1 {
-  color: red;
+  text-transform: uppercase;
+  color: #286ca7;
+  font-size: 5em;
+  margin: 0;
+}
+h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #286ca7;
+}
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+}
+section h2 {
+  margin: 0;
+}
+section h3 {
+    margin: 0 0 5em 0;
+}
+section header {
+  padding: 0 0 7em;
+  border-bottom: 1em solid #EBEEF1;
+}
+section header h1 {
+  margin: 0;
+}
+
+/*
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 5em;
+  background-color: #FFFFFF;
+}
+footer a {
+  text-decoration: none;
+  color: #286ca7;
+  font-size: 1.25em;
+}
+*/
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.rowBlock {
+  display: block;
+  padding: 0.5em 0;
+}
+.rowBlock li{
+  width: 5em;
+  margin: 1em;
+}
+.row1 {
+  flex-direction: row; /* comportement natif */
+}
+
+.row2 {
+  flex-direction: column;
+}
+
+.row3 {
+  flex-wrap: nowrap; /* comportement natif */
+}
+
+.row4 {
+  flex-wrap: wrap;
+}
+
+.row5 {
+  flex-flow: row wrap;
+}
+
+.row6 {
+  justify-content: flex-start;
+}
+
+.row7 {
+  justify-content: flex-end;
+}
+
+.row8 {
+  justify-content: center;
+}
+
+.row9 {
+  justify-content: space-between;
+}
+
+.row10 {
+  justify-content: space-around;
+}
+
+.row11 {
+  align-items: flex-start;
+  height: 100px;
+}
+
+.row12 {
+  align-items: flex-end;
+  height: 100px;
+}
+
+.row13 {
+  align-items: center;
+  height: 100px;
+}
+
+.row14 {
+  align-items: stretch;
+  height: 100px;
+}
+
+.row15,
+.row16 {
+  height: 100px;
+}
+.row15 li:first-of-type,
+.row16 li:first-of-type {
+  padding-top: 25px;
+}
+.row15 li:last-of-type,
+.row16 li:last-of-type {
+  padding-top: 50px;
+}
+.row16 {
+  align-items: baseline;
+}
+
+#alignContent ul {
+  height: 200px;
+}
+#alignContent li {
+  height: 50px;
+  width: 30%;
+}
+
+.row17 {
+  align-content: flex-start;
+}
+.row18 {
+  align-content: flex-end;
+}
+.row19 {
+  align-content: center;
+}
+.row20 {
+  align-content: space-between;
+}
+.row21 {
+  align-content: space-around;
+}
+.row22 {
+  align-content: stretch;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* children */
+
+.row23 > li:first-child {
+  flex-grow: 1;
+}
+
+.row24 > li:first-child {
+  flex-grow: 2;
+}
+
+.row25 > li:first-child {
+  flex-grow: 1;
+}
+.row25 > li:nth-child(2) {
+  flex-grow: 2;
+}
+
+.row26 > li:first-child {
+  flex-shrink: 2;
+}
+
+.row27 > li:first-child {
+  flex-shrink: 4;
+}
+
+.row28 > li:first-child {
+  flex-basis: auto;
+}
+
+.row29 > li:first-child {
+  flex-basis: 1;
+}
+
+.row30 > li:nth-child(2) {
+  order: 1;
+}
+.row30 > li:last-child {
+  order: -1;
+}
+
+.row31,
+.row32,
+.row33,
+.row34,
+.row35,
+.row36 {
+  height: 150px;
+}
+
+.row31 > li:nth-child(2) {
+  align-self: auto;
+}
+
+.row32 > li:nth-child(2) {
+  align-self: flex-start;
+}
+
+.row33 > li:nth-child(2) {
+  align-self: flex-end;
+}
+
+.row34 > li:nth-child(2) {
+  align-self: center;
+}
+
+.row35 > li:nth-child(2) {
+  align-self: baseline;
+}
+.row35 > li:nth-child(2) {
+  align-self: baseline;
+}
+
+.row36 > li:nth-child(2) {
+  align-self: stretch;
 }

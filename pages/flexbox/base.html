@@ -1,0 +1,328 @@
+---
+layout: flexbox-layout
+title: Flexbox
+<!--permalink: /flexbox/-->
+extra_css: flexbox
+---
+
+<!--
+display: flex
+-->
+<nav>
+  <ul class="row0">
+    <li><a href="#displayFlex">display: flex</a></li>
+    <li><a href="#flexDirection">flex-direction</a></li>
+    <li><a href="#flexWrap">flex-wrap</a></li>
+    <li><a href="#flexFlow">flex-flow</a></li>
+    <li><a href="#justifyContent">justify-content</a></li>
+    <li><a href="#alignItems">align-items</a></li>
+    <li><a href="#alignContent">align-content</a></li>
+  </ul>
+</nav>
+<section id="displayFlex">
+  <h2>display: flex</h2>
+  <h3>les parents ont le pouvoir !</h3>
+  <p>
+    la propriété <code>display: flex</code> permet d'indiquer au parent qu'il va pouvoir donner des ordres aux enfants.
+    De manière native, de base donc, <code>display: flex</code> donne <em>déja</em> des ordres. Elles seront explicitées à chaques propriétés.
+    Cela explique la différence entre un <code>display: block</code>
+  </p>
+  <ul class="rowBlock">
+    <li>block</li>
+    <li>block</li>
+    <li>block</li>
+  </ul>
+  <p>et un <code>display: flex</code></p>
+  <ul class="row1">
+    <li>row</li>
+    <li>row</li>
+    <li>row</li>
+  </ul>
+  <p>
+    De manière native <code>display: flex</code> donne une direction qui est <code>row</code> et ordonne/impose aux enfants
+    de se mettre en ligne
+  </p>
+</section>
+<!--
+flex-direction
+-->
+<section id="flexDirection">
+  <h2>flex-direction</h2>
+  <h3>en ligne ou en colonne ?</h3>
+  <p>
+    row / column<br />
+    natif: row<br />
+    +: row-reverse / column-reverse<br />
+  </p>
+  <ul class="row1">
+    <li>row</li>
+    <li>row</li>
+    <li>row</li>
+  </ul>
+  <p>de manière native ordonner au d'être en colonne les oblige à être stretch</p>
+  <ul class="row2">
+    <li>column</li>
+    <li>column</li>
+    <li>column</li>
+  </ul>
+</section>
+<!--
+flex-wrap
+-->
+<section id="flexWrap">
+  <h2>flex-wrap</h2>
+  <h3>à la ligne ou non ?</h3>
+  <p>
+    nowrap / wrap<br />
+    natif: nowrap<br />
+    +: wrap-reverse<br />
+  </p>
+  <ul class="row3">
+    <li>nowrap</li>
+    <li>nowrap</li>
+    <li>nowrap</li>
+  </ul>
+  <ul class="row4">
+    <li>wrap</li>
+    <li>wrap</li>
+    <li>wrap</li>
+  </ul>
+</section>
+<!--
+flex-flow
+-->
+<section id="flexFlow">
+  <h2>flex-flow</h2>
+  <h3>un condensé ?</h3>
+  <p>
+    la version courte c'est flex-flow: flex-direction et flex-wrap<br />
+    de manière native flex-flow = row et nowrap
+  </p>
+  <ul class="row5">
+    <li>row wrap</li>
+    <li>row wrap</li>
+    <li>row wrap</li>
+  </ul>
+</section>
+<!--
+justify-content
+-->
+<section id="justifyContent">
+  <h2>justify-content</h2>
+  <h3>de gauche à droite ou l'axe des X ?</h3>
+  <p>
+    justify-content fait travailler (c'est illégal) les enfants sur l'horizontalité, l'axe X<br />
+    de manière native justify-content = flex-start
+  </p>
+  <ul class="row6">
+    <li>flex-start</li>
+    <li>flex-start</li>
+    <li>flex-start</li>
+  </ul>
+  <ul class="row7">
+    <li>flex-end</li>
+    <li>flex-end</li>
+    <li>flex-end</li>
+  </ul>
+  <ul class="row8">
+    <li>center</li>
+    <li>center</li>
+    <li>center</li>
+  </ul>
+  <ul class="row9">
+    <li>space-between</li>
+    <li>space-between</li>
+    <li>space-between</li>
+  </ul>
+  <ul class="row10">
+    <li>space-around</li>
+    <li>space-around</li>
+    <li>space-around</li>
+  </ul>
+  <p>
+    Pour résumer:<br />
+    justify-content: flex-start | flex-end | center | space-between | space-around;
+  </p>
+</section>
+<!--
+align-items
+-->
+<section id="alignItems">
+  <h2>align-items</h2>
+  <h3>de haut en bas ou l'axe des Y ?</h3>
+  <p>
+    align-items fait travailler (c'est encore illégal) les enfants sur la verticalité, l'axe Y<br />
+    de manière native align-items = stretch (min et max width sont respectées)
+  </p>
+  <ul class="row11">
+    <li>flex-start</li>
+    <li>flex-start</li>
+    <li>flex-start</li>
+  </ul>
+  <ul class="row12">
+    <li>flex-end</li>
+    <li>flex-end</li>
+    <li>flex-end</li>
+  </ul>
+  <ul class="row13">
+    <li>center</li>
+    <li>center</li>
+    <li>center</li>
+  </ul>
+  <ul class="row14">
+    <li>stretch</li>
+    <li>stretch</li>
+    <li>stretch</li>
+  </ul>
+  <ul class="row15">
+    <li>sans baseline</li>
+    <li>sans baseline</li>
+    <li>sans baseline</li>
+  </ul>
+  <ul class="row16">
+    <li>avec baseline</li>
+    <li>avec baseline</li>
+    <li>avec baseline</li>
+  </ul>
+  <p>
+    Pour résumer:<br />
+    align-items: flex-start | flex-end | center | baseline | stretch;
+  </p>
+</section>
+<!--
+align-content
+-->
+<section id="alignContent">
+  <h2>align-content</h2>
+  <h3>s'organiser sur plus d'une ligne ?</h3>
+  <p>
+    align-content pour faire simple c'est comme justify-content avec la place disponible en variante <br />
+    inutile s'il n'y a qu'une seule ligne ... logique ? <br />
+    rappel: justify-content fait travailler les enfants sur l'axe des X (horizontal)
+  </p>
+  <p>justify-content:</p>
+  <ul class="row6">
+    <li>flex-start</li>
+    <li>flex-start</li>
+    <li>flex-start</li>
+    <li>flex-start</li>
+  </ul>
+  <p>align-content:</p>
+  <ul class="row17">
+    <li>flex-start</li>
+    <li>flex-start</li>
+    <li>flex-start</li>
+    <li>flex-start</li>
+  </ul>
+  <ul class="row17 wrap">
+    <li>flex-start</li>
+    <li>flex-start</li>
+    <li>flex-start</li>
+    <li>flex-start</li>
+  </ul>
+  <p>justify-content:</p>
+  <ul class="row7">
+    <li>flex-end</li>
+    <li>flex-end</li>
+    <li>flex-end</li>
+    <li>flex-end</li>
+  </ul>
+  <p>align-content:</p>
+  <ul class="row18">
+    <li>flex-end</li>
+    <li>flex-end</li>
+    <li>flex-end</li>
+    <li>flex-end</li>
+  </ul>
+  <p>align-content:</p>
+  <ul class="row18 wrap">
+    <li>flex-end wrap</li>
+    <li>flex-end wrap</li>
+    <li>flex-end wrap</li>
+    <li>flex-end wrap</li>
+  </ul>
+  <p>justify-content:</p>
+  <ul class="row8">
+    <li>center</li>
+    <li>center</li>
+    <li>center</li>
+    <li>center</li>
+  </ul>
+  <p>align-content:</p>
+  <ul class="row19">
+    <li>center</li>
+    <li>center</li>
+    <li>center</li>
+    <li>center</li>
+  </ul>
+  <p>align-content:</p>
+  <ul class="row19 wrap">
+    <li>center wrap</li>
+    <li>center wrap</li>
+    <li>center wrap</li>
+    <li>center wrap</li>
+  </ul>
+  <p>justify-content:</p>
+  <ul class="row9">
+    <li>space-between</li>
+    <li>space-between</li>
+    <li>space-between</li>
+    <li>space-between</li>
+  </ul>
+  <p>align-content:</p>
+  <ul class="row20">
+    <li>space-between</li>
+    <li>space-between</li>
+    <li>space-between</li>
+    <li>space-between</li>
+  </ul>
+  <p>align-content:</p>
+  <ul class="row20 wrap">
+    <li>space-between wrap</li>
+    <li>space-between wrap</li>
+    <li>space-between wrap</li>
+    <li>space-between wrap</li>
+  </ul>
+  <p>justify-content:</p>
+  <ul class="row10">
+    <li>space-around</li>
+    <li>space-around</li>
+    <li>space-around</li>
+    <li>space-around</li>
+  </ul>
+  <p>align-content :</p>
+  <ul class="row21">
+    <li>space-around</li>
+    <li>space-around</li>
+    <li>space-around</li>
+    <li>space-around</li>
+  </ul>
+  <p>align-content :</p>
+  <ul class="row21 wrap">
+    <li>space-around wrap</li>
+    <li>space-around wrap</li>
+    <li>space-around wrap</li>
+    <li>space-around wrap</li>
+  </ul>
+  <p>align-content :</p>
+  <ul class="row22">
+    <li>stretch</li>
+    <li>stretch</li>
+    <li>stretch</li>
+    <li>stretch</li>
+  </ul>
+  <p>align-content :</p>
+  <ul class="row22 wrap">
+    <li>stretch wrap</li>
+    <li>stretch wrap</li>
+    <li>stretch wrap</li>
+    <li>stretch wrap</li>
+  </ul>
+  <p>
+    Pour résumer:<br />
+    align-content: flex-start | flex-end | center | space-between | space-around | stretch;<br />
+  </p>
+</section>
+
+
+<script type="text/javascript" src="../nav.js"></script>
