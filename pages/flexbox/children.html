@@ -1,0 +1,161 @@
+---
+layout: flexbox-layout
+title: Flexbox
+permalink: /flexbox/children
+extra_css: flexbox
+---
+<nav>
+  <ul class="row0">
+    <li><a href="#flexGrow">flex-grow</a></li>
+    <li><a href="#flexShrink">flex-shrink</a></li>
+    <li><a href="#flexBasis">flex-basis</a></li>
+    <li><a href="#order">order</a></li>
+    <li><a href="#alignSelf">align-self</a></li>
+  </ul>
+</nav>
+<!--
+flex-grow
+-->
+<section id="flexGrow">
+  <h2>flex-grow</h2>
+  <h3>l'espace positif</h3>
+  <p>
+    Qu'est ce que l'espace positif ?
+    l'espace positif est l'espace qui de disponible dans le conteneur, en largeur si row, en hauteur si column<br>
+  </p>
+  <ul class="row1">
+    <li>aucun effet</li>
+    <li>aucun effet</li>
+    <li>aucun effet</li>
+  </ul>
+  <p>
+    Grow travaille sur cet espace positif, il va le prendre puis le répartir parmi tout les enfants<br>
+    D'où le fait que grow agrandisse vos enfants<br>
+    Il va faire selon selon un indice et par default grox = 0<br>
+    Cela explique pourquoi si un seul des enfants porte un grow de 1 ou +, cela ne change rien, car c'est lui<br>
+    récupère tout l'espace diponible, les autres étant à 0<br>
+  </p>
+  <ul class="row23">
+    <li>effet grow: 1</li>
+    <li>aucun effet</li>
+    <li>aucun effet</li>
+  </ul>
+  <ul class="row24">
+    <li>effet grow: 2</li>
+    <li>aucun effet</li>
+    <li>aucun effet</li>
+  </ul>
+  <ul class="row25">
+    <li>effet grow: 1</li>
+    <li>effet grow: 2</li>
+    <li>aucun effet</li>
+  </ul>
+</section>
+<!--
+flex-shrink
+-->
+<section id="flexShrink">
+  <h2>flex-shrink</h2>
+  <h3>l'espace négatif</h3>
+  <p>
+    Shrink est l'opposé de Grow, lui travaille avec l'espace négatif, mais c'est quoi l'espace négatif ?<br>
+    l'espace négatif est l'espace qui va se réduire lorsque vous allez redimentionner la page (selon l'axe<br>
+    de travail (row ou column).<br>
+    Cet espace, se réduisant, va se répartir sur les enfant selon un indice qui de base est à 0<br>
+  </p>
+  <ul class="row26">
+    <li>effet shrink: 2</li>
+    <li>aucun effet</li>
+    <li>aucun effet</li>
+  </ul>
+  <ul class="row27">
+    <li>effet shrink: 4</li>
+    <li>aucun effet</li>
+    <li>aucun effet</li>
+  </ul>
+</section>
+<!--
+flex-basis
+-->
+<section id="flexBasis">
+  <h2>flex-basis</h2>
+  <h3>pourquoi pas !</h3>
+  <p>
+    Basis travaille sur ???, il répartie ??? selon l'indice ???<br>
+    Par défault basis = ???
+  </p>
+  <ul class="row28">
+    <li>effet basis: auto</li>
+    <li>aucun effet</li>
+    <li>aucun effet</li>
+  </ul>
+  <ul class="row29">
+    <li>effet basis: 1</li>
+    <li>aucun effet</li>
+    <li>aucun effet</li>
+  </ul>
+</section>
+<!-- flex-order -->
+<section id="order">
+  <h2>order</h2>
+  <h3>une question de poid</h3>
+  <p>
+    <code>order</code> permet à un enfant de prendre la place qu'il souhaite grâce à un indice<br />
+    Par défault cet indice n'a pas de valeur<br />
+    A l'origine nous avons donc dans l'ordre
+  </p>
+  <ul>
+    <li>child 1</li>
+    <li>child 2</li>
+    <li>child 3</li>
+  </ul>
+  <p>Modifions les valeurs pour que child 3 est un order à -1 et child 2 un order à 1</p>
+  <ul class="row30">
+    <li>child 1 (sans order)</li>
+    <li>child 2 (order: 1)</li>
+    <li>child 3 (order: -1)</li>
+  </ul>
+</section>
+<!--
+align-self
+-->
+<section id="alignSelf">
+  <h2>align-self</h2>
+  <h3>l'alignement rebelle</h3>
+  <p>
+    <code>align-self</code> permet à un enfant de prendre la position qu'il souhaite<br />
+    Au choix, nous avons :<br />
+    <code>align-self: auto | flex-start | flex-end | center | baseline | stretch;</code><br />
+    Testons de modifier le deuxième enfant uniquement:
+  </p>
+  <ul class="row31">
+    <li>child 1</li>
+    <li>child 2 - auto</li>
+    <li>child 3</li>
+  </ul>
+  <ul class="row32">
+    <li>child 1</li>
+    <li>child 2 - flex-start</li>
+    <li>child 3</li>
+  </ul>
+  <ul class="row33">
+    <li>child 1</li>
+    <li>child 2 - flex-end</li>
+    <li>child 3</li>
+  </ul>
+  <ul class="row34">
+    <li>child 1</li>
+    <li>child 2 - center</li>
+    <li>child 3</li>
+  </ul>
+  <ul class="row35">
+    <li>child 1</li>
+    <li>child 2 - baseline</li>
+    <li>child 3</li>
+  </ul>
+  <ul class="row36">
+    <li>child 1</li>
+    <li>child 2 - stretch</li>
+    <li>child 3</li>
+  </ul>
+</section>
