@@ -90,10 +90,6 @@ On marche direction notre dernier repaire pour la journée : le [Gazette café](
 C'est l'occasion de lancer un exercice que j'aime bien mais que je ne fais pas assez avec mes clients : la rétrospective. Il s'agit de dire ce que l'on a apprécié ou non, ce que l'on améliorerait, ce que l'on garderait.<br>
 On finit autour d'un verre avec des discussions intéressantes sur le format, flexbox, la formation, etc.
 
-### Carte de notre journée
-
-Idée inspirée par Julia dans son [billet de retours sur le Walking Dev Lean](https://medium.com/@julia.barbelane/walking-dev-ou-comment-apprendre-en-itin%C3%A9rance-426acb12e024#.go1608pgu), une carte de la distance parcourue.
-
 ## Mon ressenti
 
 Malgré le fait de ne pas avoir la séparation complète apprenant / enseignant, la journée a été riche en découvertes, questions auxquels on ne savait pas forcément répondre et donc plein de nouvelles choses à creuser et proposer.
