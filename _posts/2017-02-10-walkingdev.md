@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Walking Dev Flexbox"
-date:   2017-02-10 10:07:54 +0200
+date:   2017-02-20 12:56:54 +0200
 categories: apprentissage
 ---
 
@@ -41,9 +41,9 @@ Loïc et moi faisons de l'intégration, on a déjà croisé Flexbox sur notre ch
 
 ### Choix de la date
 
-Entre le moment où on a décidé de faire cet exercice de style et le jour J, il y a eu au moins 2 mois. 
+Entre le moment où on a décidé de faire cet exercice de style et le jour J, il y a eu au moins 2 mois.
 
-Malgré le fait que Stéphane disait qu'il ne fallait pas forcément en savoir beaucoup sur un sujet pour le proposer, on ne se sentait pas serein (voir légitime) d'y aller avec notre minuscule bagage. On a donc passé du temps à tester, échanger sur le fonctionnement et comment nous pourrions le présenter. <br> 
+Malgré le fait que Stéphane disait qu'il ne fallait pas forcément en savoir beaucoup sur un sujet pour le proposer, on ne se sentait pas serein (voir légitime) d'y aller avec notre minuscule bagage. On a donc passé du temps à tester, échanger sur le fonctionnement et comment nous pourrions le présenter. <br>
 Et il y a eu les fêtes de fin d'années.
 
 La date a finalement été arbitrairement mise au jeudi 26 janvier.
@@ -69,14 +69,14 @@ Cela a entrainé quelques retweets mais pas d'inscriptions directs.
 ## Déroulé de la journée
 
 On se retrouve donc à 9h au [café Bun](https://www.facebook.com/BUNcafe). Les inscrits du jour sont des copains : Stéphane, Bénédicte et Sabine qui nous rejoindra plus tard. Bénédicte a déjà joué un peu avec Flexbox, les autres non.<br>
-Le rendez-vous se transforme en retrouvailles autour de café et de cookies, on ne commence pas forcément comme imaginé. On entre donc en mouvement direction le 2ème lieu. 
+Le rendez-vous se transforme en retrouvailles autour de café et de cookies, on ne commence pas forcément comme imaginé. On entre donc en mouvement direction le 2ème lieu.
 
 Après avoir échanger en marchant sur ce qu'on attendait de la journée, les idées qu'ils avaient sur Flexbox et la théorie. On arrive à [l'Instant Thé](https://www.facebook.com/instantthemtp/).<br>
 Pendant toute cette session, on va découvrir les valeurs de bases des propriétés et leurs impacts sur l'affichage.<br>
 On se passe la parole avec Loïc, les 3 autres se relaient derrière l'ordi branché au vidéoprojecteur, et posent des questions.
 
 Midi approchant, on reste dans la même rue mais plus bas, direction [la Coutinelle](http://www.lacoutinelle.fr/).<br>
-On est connu, ils ne sont pas choqués de nous voir ressortir un ordi et un vidéo-proj en attendant que nos commandes arrivent. 
+On est connu, ils ne sont pas choqués de nous voir ressortir un ordi et un vidéo-proj en attendant que nos commandes arrivent.
 
 Après un bon repas, on reste sur place pour tenter un petit exercice : positionner les valeurs d'un dé (de 1 à 6) sur une face. Exercice sympa mais on se rend rapidement compte que pour passer 4, il faut ajouter des div supplémentaires. L'exercice perd de son intérêt.
 En parrallèle, Stéphane qui apprends plus rapidement se retire légèrement (mentalement du moins) pour s'orienter sur une problématique que nous ne sommes pas arrivé à expliqué. Loïc le rejoins.
