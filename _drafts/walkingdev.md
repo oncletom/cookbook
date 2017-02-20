@@ -6,7 +6,7 @@ categories: apprentissage
 ---
 
 Il y a quelques temps Stéphane me parle d'un concept qu'il commence à tester, un truc nommé Walking Dev.<br>
-L'idée me parait intéressante, apprendre en changeant de lieu.
+L'idée me parait intéressante, apprendre et explorer une thèmatique en changeant de lieu.
 
 ## Travailler en changeant de lieu
 
@@ -22,20 +22,20 @@ L'idée de Walking Dev est donc d'apprendre en parcourant une ville.
 Chaque session a un thème annoncé à l'avance sur le [site](http://walkingdev.fr), par exemple : ELM, Github, Lean, OpenStreetMap, se nourrir en mode nomade, etc.<br>
 Tout sujet peut faire l'objet d'un Walking Dev.
 
-Les inscrits se retrouvent dans un café le matin et l'échange autour du thème commence.<br>
+Les inscrits se retrouvent le matin, le plus souvent un café et l'échange autour du thème commence.<br>
 On change de lieu régulièrement, les déplacements font l'objet d'échanges tout en gardant en tête le thème.<br>
-Et le soir on finit par une rétrospective de ce qui a marché / pas marché, ce qu'il faut garder, ce qu'il faut améliorer avec des propositions.
+Et le soir on finit par une rétrospective de ce qui a marché ou non, métaphoriser la journée en véhicule, ce qu'il faut garder et ce qu'il faut améliorer avec des propositions à chaud.
 
-L'idée de base est qu'il n'y a pas de statut d'enseignants / apprenants mais que tout le monde apprenne des autres. Il n'y a pas de plan de la journée. On n'est pas obligé de rester tout le groupe sur une seule problématique.
+L'idée de base est qu'il n'y a pas cette position professeurs / élèves mais plutôt que tout le monde apprenne des autres. Il n'y a pas de plan de la journée, à par le départ et parfois le midi (si il y une réservation). Dans la journée le "non-programme" pivote en fonction de l'évolution. On n'est pas obligé de rester tout le groupe sur une seule problématique, bien au contraire.
 
 ## Mon premier Walking Dev
 
-On s'est motivé avec Loïc et moi pour proposer notre premier Walking Dev en tant qu'animateur **(choix du mot à peut-être revoir)**.<br>
-Loïc a déjà participé à pas mal d'autres épisodes en tant que volontaire pour découvrir, moi ça sera le premier tout court.
+On s'est motivé avec Loïc et moi pour proposer notre premier Walking Dev en tant qu'animateur **(choix du mot à peut-être revoir)** / lanceur de cadre apprenant (dixit Loïc)<br>
+Loïc a déjà participé à pas mal d'autres épisodes en tant qu'explorateur, moi ça sera le premier tout court.
 
 ### Choix du thème
 
-Le choix du thème a été simple : Flexbox. Il s'agit de la technique de positionnement CSS qui est la plus efficace, pour l'instant. Un ou plusieurs billets prochains en parleront.
+Le choix du thème a été simple : Flexbox. Il s'agit de la technique de positionnement CSS qui est la plus efficace et la plus accessible ... pour l'instant. Un ou plusieurs billets prochains en parleront.
 
 Loïc et moi faisons de l'intégration, on a déjà croisé Flexbox sur notre chemin, ça nous a plu, on a eu envie de partager.
 
@@ -43,7 +43,7 @@ Loïc et moi faisons de l'intégration, on a déjà croisé Flexbox sur notre ch
 
 Entre le moment où on a décidé de faire cet exercice de style et le jour J, il y a eu au moins 2 mois. 
 
-Malgré le fait que Stéphane disait qu'il ne fallait pas forcément en savoir beaucoup sur un sujet pour le proposer, on ne se sentait pas serein d'y aller avec notre minuscule bagage. On a donc passé du temps à échanger sur le fonctionnement et comment on pourrait le présenter. <br> 
+Malgré le fait que Stéphane disait qu'il ne fallait pas forcément en savoir beaucoup sur un sujet pour le proposer, on ne se sentait pas serein (voir légitime) d'y aller avec notre minuscule bagage. On a donc passé du temps à tester, échanger sur le fonctionnement et comment nous pourrions le présenter. <br> 
 Et il y a eu les fêtes de fin d'années.
 
 La date a finalement été arbitrairement mise au jeudi 26 janvier.
@@ -52,7 +52,7 @@ La date a finalement été arbitrairement mise au jeudi 26 janvier.
 
 On a déjà choisi la simplicité en le faisant à Montpellier. On y habite tous les 2 et on commence à connaitre pas mal de lieux différents.
 
-Notre base de départ a été le café Bun car il a l'avantage d'ouvrir tôt, de servir du très bon café et des pâtisseries et d'être sympa.
+Notre base de départ a été le [café Bun](https://www.facebook.com/BUNcafe/) car il a l'avantage d'ouvrir tôt, de servir du très bon café et des pâtisseries et d'être sympa.
 
 Pour la suite, on avait plusieurs lieux en tête. On en reparle dans la partie résumée de la journée
 
@@ -79,10 +79,11 @@ Midi approchant, on reste dans la même rue mais plus bas, direction [la Coutine
 On est connu, ils ne sont pas choqués de nous voir ressortir un ordi et un vidéo-proj en attendant que nos commandes arrivent. 
 
 Après un bon repas, on reste sur place pour tenter un petit exercice : positionner les valeurs d'un dé (de 1 à 6) sur une face. Exercice sympa mais on se rend rapidement compte que pour passer 4, il faut ajouter des div supplémentaires. L'exercice perd de son intérêt.
+En parrallèle, Stéphane qui apprends plus rapidement se retire légèrement (mentalement du moins) pour s'orienter sur une problématique que nous ne sommes pas arrivé à expliqué. Loïc le rejoins.
 
 S'en suit une marche plus longue que prévu car il n'y a pas de place dans le café ciblé. On se décide finalement pour [le Verre à soi](http://www.verre-a-soi.fr/).<br>
-Le but de cette session est de créer un design de blog en utilisant au maximum flexbox, ce que je fais avec Sabine et Bénédicte. Pendant ce temps Loïc et Stéphane essaye de comprendre plus en détail les propriétés flew-grow, flex-shrink et flex-basis qui nous ont posés problème lors de la présentation de propriétés le matin.<br>
-Avec les filles on avance à nos rythmes en essayant de trouver les réponses à nos questions apparues en pratiquant. Et les mecs parviennent à nous expliquer un peu plus clairement les différences et utilisations des propriétés. <br>
+Le but de cette session est de créer un design de blog en utilisant au maximum flexbox, ce que je fais avec Sabine et Bénédicte. Pendant ce temps Loïc et Stéphane continue d'essayer de comprendre plus en détail les propriétés flew-grow, flex-shrink et flex-basis qui nous ont posés problème lors de la présentation de propriétés.<br>
+Avec les filles on avance à nos rythmes en essayant de trouver les réponses à nos questions apparues en pratiquant. Et les mecs parviennent à nous expliquer un peu plus clairement les différences et utilisations des propriétés.<br>
 Cela permet de conclure la session vers 18h.
 
 On marche direction notre dernier repaire pour la journée : le [Gazette café](https://www.gazettecafe.com/).<br>
