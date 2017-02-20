@@ -30,7 +30,7 @@ L'idée de base est qu'il n'y a pas cette position professeurs / élèves mais p
 
 ## Mon premier Walking Dev
 
-On s'est motivé avec Loïc et moi pour proposer notre premier Walking Dev en tant qu'animateur **(choix du mot à peut-être revoir)** / lanceur de cadre apprenant (dixit Loïc)<br>
+On s'est motivé avec Loïc et moi pour proposer notre premier Walking Dev en tant que lanceur de cadre apprenant (dixit Loïc)<br>
 Loïc a déjà participé à pas mal d'autres épisodes en tant qu'explorateur, moi ça sera le premier tout court.
 
 ### Choix du thème
@@ -54,7 +54,7 @@ On a déjà choisi la simplicité en le faisant à Montpellier. On y habite tous
 
 Notre base de départ a été le [café Bun](https://www.facebook.com/BUNcafe/) car il a l'avantage d'ouvrir tôt, de servir du très bon café et des pâtisseries et d'être sympa.
 
-Pour la suite, on avait plusieurs lieux en tête. On en reparle dans la partie résumée de la journée
+Pour la suite, on avait plusieurs lieux en tête, cela a évolué en fonction des envies.
 
 ### Communication
 
@@ -79,16 +79,16 @@ Midi approchant, on reste dans la même rue mais plus bas, direction [la Coutine
 On est connu, ils ne sont pas choqués de nous voir ressortir un ordi et un vidéo-proj en attendant que nos commandes arrivent.
 
 Après un bon repas, on reste sur place pour tenter un petit exercice : positionner les valeurs d'un dé (de 1 à 6) sur une face. Exercice sympa mais on se rend rapidement compte que pour passer 4, il faut ajouter des div supplémentaires. L'exercice perd de son intérêt.
-En parrallèle, Stéphane qui apprends plus rapidement se retire légèrement (mentalement du moins) pour s'orienter sur une problématique que nous ne sommes pas arrivé à expliqué. Loïc le rejoins.
+En parrallèle, Stéphane qui apprend plus rapidement se retire légèrement (mentalement du moins) pour s'orienter sur une problématique que nous ne sommes pas arrivé à expliquer. Loïc le rejoint.
 
 S'en suit une marche plus longue que prévu car il n'y a pas de place dans le café ciblé. On se décide finalement pour [le Verre à soi](http://www.verre-a-soi.fr/).<br>
-Le but de cette session est de créer un design de blog en utilisant au maximum flexbox, ce que je fais avec Sabine et Bénédicte. Pendant ce temps Loïc et Stéphane continue d'essayer de comprendre plus en détail les propriétés flew-grow, flex-shrink et flex-basis qui nous ont posés problème lors de la présentation de propriétés.<br>
+Le but de cette session est de créer un design de blog en utilisant au maximum Flexbox, ce que je fais avec Sabine et Bénédicte. Pendant ce temps Loïc et Stéphane continue d'essayer de comprendre plus en détail les propriétés flew-grow, flex-shrink et flex-basis qui nous ont posés problème lors de la présentation de propriétés.<br>
 Avec les filles on avance à nos rythmes en essayant de trouver les réponses à nos questions apparues en pratiquant. Et les mecs parviennent à nous expliquer un peu plus clairement les différences et utilisations des propriétés.<br>
 Cela permet de conclure la session vers 18h.
 
 On marche direction notre dernier repaire pour la journée : le [Gazette café](https://www.gazettecafe.com/).<br>
 C'est l'occasion de lancer un exercice que j'aime bien mais que je ne fais pas assez avec mes clients : la rétrospective. Il s'agit de dire ce que l'on a apprécié ou non, ce que l'on améliorerait, ce que l'on garderait.<br>
-On finit autour d'un verre avec des discussions intéressantes sur le format, flexbox, la formation, etc.
+On finit autour d'un verre avec des discussions intéressantes sur le format, Flexbox, la formation, etc.
 
 ## Mon ressenti
 
