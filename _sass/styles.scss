@@ -66,11 +66,19 @@ main {
     padding: 20px;
     background-color: #fff;
   }
+
 }
 
 .page-heading {
   font-size: 2rem;
   color: $blue;
+}
+
+.post-content {
+    
+  a {
+    color: $link;
+  }
 }
 
 .post-footer {

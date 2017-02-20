@@ -52,6 +52,9 @@ main .wrapper {
   font-size: 2rem;
   color: #20212D; }
 
+.post-content a {
+  color: #900808; }
+
 .post-footer {
   font-size: .8em; }
   .post-footer p {
