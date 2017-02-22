@@ -23,9 +23,10 @@ display: flex
   <h2>display: flex</h2>
   <h3>les parents ont le pouvoir !</h3>
   <p>
-    la propriété <code>display: flex</code> permet d'indiquer au parent qu'il va pouvoir donner des ordres aux enfants.
-    De manière native, de base donc, <code>display: flex</code> donne <em>déja</em> des ordres. Elles seront explicitées à chaques propriétés.
-    Cela explique la différence entre un <code>display: block</code>
+    la propriété <code>display: flex</code> permet d'indiquer au parent qu'il va pouvoir donner des ordres aux enfants.<br>
+    De manière native (de base donc) <code>display: flex</code> donne <em>déja</em> des ordres.<br>
+    Elles seront explicitées à chaques propriétés.<br>
+    Cela explique d'ailleur la différence entre un <code>display: block</code>
   </p>
   <ul class="rowBlock">
     <li>block</li>
@@ -65,6 +66,7 @@ flex-direction
     <li>column</li>
     <li>column</li>
   </ul>
+  <p>Le petit tips est de poser sur chaque enfant un <code>min-width</code>.</p>
 </section>
 <!--
 flex-wrap
@@ -73,9 +75,8 @@ flex-wrap
   <h2>flex-wrap</h2>
   <h3>à la ligne ou non ?</h3>
   <p>
-    nowrap / wrap<br />
-    natif: nowrap<br />
-    +: wrap-reverse<br />
+    <code>wrap</code> c'est le retour à la ligne automatique !<br />
+    de manière native nous sommes en nowrap<br />
   </p>
   <ul class="row3">
     <li>nowrap</li>
@@ -87,6 +88,13 @@ flex-wrap
     <li>wrap</li>
     <li>wrap</li>
   </ul>
+  <p>Pour voir l'activation du wrap, et donc le retour à la ligne, il faut que les enfants n'est plus assez de place.</p>
+  <ul class="row4">
+    <li>wrap, Lorem ipsum dolor sit amet</li>
+    <li>wrap, consectetur adipisicing elit</li>
+    <li>wrap, sed do eiusmod tempor incididunt ut labore</li>
+  </ul>
+  <p>Pour info il existe aussi un <code>wrap-reverse</code>, rien de transcendant</p>
 </section>
 <!--
 flex-flow
