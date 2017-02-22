@@ -1,5 +1,6 @@
 var ulNav = document.getElementsByClassName('row0');
 var liNav = ulNav[0].getElementsByTagName('li');
+console.log(liNav);
 
 var introduction = document.getElementById('introduction');
 var posIntro = introduction.offsetTop;
