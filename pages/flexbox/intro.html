@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Flexbox - bases</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../main.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>flexbox</h1>
+      <h3>la mise en page funky</h3>
+      <a href="#program">accès direct aux chapitres</a>
+      <nav>
+        <ul class="row0">
+          <li><a href="#introduction">introduction</a></li>
+          <li><a href="#program">programme</a></li>
+          <li><a href="#ressources">ressources</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--
+        introduction
+      -->
+      <section id="introduction">
+        <article>
+          <h2>un modèle simple</h2>
+          <p>
+            <strong>Flexbox</strong> (pour flexible box) est un mode de mise en page prévoyant
+            une disposition des éléments d’une page de telle sorte que ces éléments possèdent un
+            comportement prévisible lorsqu’ils doivent s’accommoder de différentes tailles d’écrans/appareils (src <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Disposition_des_bo%C3%AEtes_flexibles_CSS/Utilisation_des_flexbox_en_CSS">mdn</a>).<br />
+            Concernant son <a href="http://caniuse.com/#feat=flexbox">implantation</a>, IE est encore à la traine ... <br />
+            Mon sentiment sur le modèle que propose flexbox est qu'il apparait <strong>simple</strong> et
+            <strong>ludique</strong>.<br />
+            La pratique peut faire ressortir quelques résultats étranges mais la <strong>courbe d'apprentissage</strong>,
+            un <strong>outillage intélligent</strong> et le <strong>fun</strong> procuré font de flexbox une <strong>découverte cool</strong>
+            en CSS.
+          </p>
+        </article>
+        <article>
+          <h2>se synchroniser ensemble</h2>
+          <p>
+            Pour utiliser le même language, je vous propose de raisonner parent/enfant.<br />
+            Le parent est donc le conteneur des enfants, il les englobe.<br />
+            Par exemple:<br />
+            Une liste <code>&lt;ul&gt;</code> englobe des <code>&lt;li&gt;</code><br />
+            <code>&lt;ul&gt;</code> est donc le parent et les <code>&lt;li&gt;</code> sont ses enfants.<br />
+            Le parent va passer un ensemble d'ordre aux enfants.<br />
+            Les enfants s'exécutent mais peuvent s'émanciper, 2ième partie<br />
+            C'est donc comme dans la vrai vie, le parent ordonne, l'enfant s'execute, l'adolescent se rebelle.<br />
+          </p>
+        </article>
+        <article>
+          <h2>un language basique</h2>
+          <p>Pour illustrer :</p>
+          <ul class="parent">
+            <p>parent <code>&lt;ul&gt;</code></p>
+          </ul>
+          <p>et des enfants comme tel:</p>
+          <li class="enfant">enfant 1 <code>&lt;li&gt;</code></li>
+          <li class="enfant">enfant 2 <code>&lt;li&gt;</code></li>
+          <li class="enfant">enfant 3 <code>&lt;li&gt;</code></li>
+          <p>pour arriver à cela:</p>
+          <ul>
+            <li>enfant 1</li>
+            <li>enfant 2</li>
+            <li>enfant 3</li>
+          </ul>
+          <p>
+            Beaucoup de ressource sur flexbox sont disponibles, nous les référenceront dans la dernière partie<br />
+            Pour illustrer la suite nous utiliserons un parent (le container donc) comme tel:
+          </p>
+        </article>
+      </section>
+      <!--
+        programme
+      -->
+      <section id="program">
+        <p>
+          Flexbox est simple, nous esperons que son <em>déroulé</em> le sera tout autant.<br />
+          les ojectifs sont simples:
+        </p>
+        <ul class="column">
+          <li>Découvrir une propriété CSS d'une manière abordable par tous</li>
+          <li>Simplifier le positionnement des élements d'une interface en CSS</li>
+          <li>Avoir une solution alternative aux autres techniques de positionnement</li>
+        </ul>
+        <p>
+          Voici donc une proposition d'ordre:
+        </p>
+        <ul class="column">
+          <li><a href="#">Chapitre O: flexbox, la mise en page funky</a></li>
+          <li><a href="../bases/index.html">Chapitre 1: les parents ont le pouvoir</a></li>
+          <li><a href="../children/index.html">Chapitre 2: les enfants se rebellent</a></li>
+          <li><a href="../advanced/index.html">Chapitre 3: les flexweird comportement</a></li>
+          <li><a href="../games/index.html">Chapitre 4: Apprendre par le fun</a></li>
+        </ul>
+      </section>
+      <!--
+        ressources
+      -->
+      <section id="ressources">
+        <p>
+          On retrouve des ressources sur <code>flexbox</code> un peu partout sur la toile.<br />
+          Voici la liste complète organisé par thème:
+        </p>
+        <article>
+          <h3>cheatsheet</h3>
+          <ul class="column">
+            <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-tricks - A guide to Flexbox</a></li>
+            <li><a href="http://www.alsacreations.com/tuto/lire/1493-css3-flexbox-layout-module.html">Alsacréations - Raphaël Goetter - Flex c'est la vie</a></li>
+            <li><a href="http://jackintheflexbox.tumblr.com/">Jake in the flexbox</a></li>
+            <li><a href="http://www.alsacreations.com/xmedia/tools/flexbox-cheatsheet.pdf">Cheatsheet Alsacréations - PDF</a></li>
+            <li><a href="https://la-cascade.io/flexbox-guide-complet/">Traduction du guide de CSS Tricks</a></li>
+            <li><a href="https://github.com/philipwalton/flexbugs">Flexbugs</a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>articles</h3>
+          <ul class="column">
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </article>
+        <article>
+          <h3>activités d'apprentissage</h3>
+          <ul class="column">
+            <li><a href="http://flexboxfroggy.com/">Flexbox Froggy</a></li>
+            <li><a href="http://www.flexboxdefense.com/">Flexbox Defense</a></li>
+            <li><a href="http://demo.agektmr.com/flexbox/">CSS Flexbox Please !</a></li>
+            <li><a href="http://the-echoplex.net/flexyboxes/">Flexy Boxes</a></li>
+            <li><a href="http://gedd.ski/master/flexbox/">Comprendre Flexbox en recevant par email une histoire de zombies</a></li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <a href="../bases/index.html">Chapitre 1: les parents ont le pouvoir [arrow next]</a>
+    </footer>
+    <script type="text/javascript" src="nav.js"></script>
+  </body>
+</html>
