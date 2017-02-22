@@ -10,11 +10,11 @@
     <main class="page-content" aria-label="Content">
       {{ content }}
     </main>
-    
-    <script type="text/javascript" src="{{ '/js/flexbox-nav.js' | absolute_url }}"></script>
-    
+
     {% include footer.html %}
 
   </body>
+
+  <script type="text/javascript" src="{{full_base_url}}/js/{{ page.layout }}/{{ page.extra_js }}.js"></script>
 
 </html>
