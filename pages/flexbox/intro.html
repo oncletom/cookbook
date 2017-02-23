@@ -6,7 +6,6 @@ extra_css: flexbox
 extra_js: intro
 ---
 
-      <a href="#program">accès direct aux chapitres</a>
       <nav>
         <ul class="row0">
           <li><a href="#introduction">introduction</a></li>
@@ -23,57 +22,53 @@ extra_js: intro
           <p>
             <strong>Flexbox</strong> (pour flexible box) est un mode de mise en page prévoyant
             une disposition des éléments d’une page de telle sorte que ces éléments possèdent un
-            comportement prévisible lorsqu’ils doivent s’accommoder de différentes tailles d’écrans/appareils (src <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Disposition_des_bo%C3%AEtes_flexibles_CSS/Utilisation_des_flexbox_en_CSS">mdn</a>).<br />
-            Concernant son <a href="http://caniuse.com/#feat=flexbox">implantation</a>, IE est encore à la traine ... <br />
-            Mon sentiment sur le modèle que propose flexbox est qu'il apparait <strong>simple</strong> et
-            <strong>ludique</strong>.<br />
+            comportement prévisible lorsqu’ils doivent s’accommoder de différentes tailles d’écrans/appareils (src <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Disposition_des_bo%C3%AEtes_flexibles_CSS/Utilisation_des_flexbox_en_CSS">mdn</a>).<br>
+            Voici son <a href="http://caniuse.com/#feat=flexbox">implantation</a> dans les navigateurs <br>
+            Mon sentiment sur le modèle que propose flexbox est qu'il apparait <strong>simple</strong>,
+            <strong>ludique</strong> et très <strong>accessible</strong> (surtout à son premier niveau).<br>
             La pratique peut faire ressortir quelques résultats étranges mais la <strong>courbe d'apprentissage</strong>,
             un <strong>outillage intélligent</strong> et le <strong>fun</strong> procuré font de flexbox une <strong>découverte cool</strong>
             en CSS.
           </p>
-        </article>
-        <article>
-          <h2>se synchroniser ensemble</h2>
           <p>
-            Pour utiliser le même language, je vous propose de raisonner parent/enfant.<br />
-            Le parent est donc le conteneur des enfants, il les englobe.<br />
-            Par exemple:<br />
-            Une liste <code>&lt;ul&gt;</code> englobe des <code>&lt;li&gt;</code><br />
-            <code>&lt;ul&gt;</code> est donc le parent et les <code>&lt;li&gt;</code> sont ses enfants.<br />
-            Le parent va passer un ensemble d'ordre aux enfants.<br />
-            Les enfants s'exécutent mais peuvent s'émanciper, 2ième partie<br />
-            C'est donc comme dans la vrai vie, le parent ordonne, l'enfant s'execute, l'adolescent se rebelle.<br />
+            Pour utiliser un language commun et vous permettre d'explorer correctement je vous propose<br>
+            de raisonner parent/enfant, le plus sémantique est donc un modèle <code>&lt;ul&gt;</code> / <code>&lt;li&gt;</code><br>
+            Le parent est donc le conteneur des enfants, il les englobe.
           </p>
-        </article>
-        <article>
-          <h2>un language basique</h2>
-          <p>Pour illustrer :</p>
+          <p>
+            <code>&lt;ul&gt;</code> est donc le parent et les <code>&lt;li&gt;</code> sont ses enfants.<br>
+            Le parent va passer un ensemble d'ordre aux enfants.<br>
+            Les enfants ont la capacité d'avoir des comportements qui leur sont propres.
+          </p>
+          <p>
+            J'aime à dire sous forme de métaphore caricaturale:<br>
+            C'est comme dans la vrai vie, le parent ordonne, l'enfant s'execute, l'adolescent se rebelle.<br>
+          </p>
+          <h2>Illustration</h2>
+          <p>Voici le parent:</p>
           <ul class="parent">
             <p>parent <code>&lt;ul&gt;</code></p>
           </ul>
           <p>et des enfants comme tel:</p>
-          <li class="enfant">enfant 1 <code>&lt;li&gt;</code></li>
-          <li class="enfant">enfant 2 <code>&lt;li&gt;</code></li>
-          <li class="enfant">enfant 3 <code>&lt;li&gt;</code></li>
+          <li class="enfant">enfant 1<code>&lt;li&gt;</code></li>
+          <li class="enfant">enfant 2<code>&lt;li&gt;</code></li>
+          <li class="enfant">enfant 3<code>&lt;li&gt;</code></li>
           <p>pour arriver à cela:</p>
           <ul>
             <li>enfant 1</li>
             <li>enfant 2</li>
             <li>enfant 3</li>
           </ul>
-          <p>
-            Beaucoup de ressource sur flexbox sont disponibles, nous les référenceront dans la dernière partie<br />
-            Pour illustrer la suite nous utiliserons un parent (le container donc) comme tel:
-          </p>
         </article>
       </section>
       <!--
         programme
       -->
       <section id="program">
+        <h2>proposition de déroulé</h2>
         <p>
-          Flexbox est simple, nous esperons que son <em>déroulé</em> le sera tout autant.<br />
-          les ojectifs sont simples:
+          Flexbox est simple, nous esperons que son <em>déroulé</em> le sera tout autant.<br>
+          les ojectifs sont:
         </p>
         <ul class="column">
           <li>Découvrir une propriété CSS d'une manière abordable par tous</li>
@@ -84,19 +79,18 @@ extra_js: intro
           Voici donc une proposition d'ordre:
         </p>
         <ul class="column">
-          <li><a href="#">Chapitre O: flexbox, la mise en page funky</a></li>
-          <li><a href="../bases/index.html">Chapitre 1: les parents ont le pouvoir</a></li>
-          <li><a href="../children/index.html">Chapitre 2: les enfants se rebellent</a></li>
-          <li><a href="../advanced/index.html">Chapitre 3: les flexweird comportement</a></li>
-          <li><a href="../games/index.html">Chapitre 4: Apprendre par le fun</a></li>
+          <li><a href="#">modèle d'exploration</a></li>
+          <li><a href="base.html">les parents ont le pouvoir</a></li>
+          <li><a href="children.html">les enfants se rebellent</a></li>
         </ul>
       </section>
       <!--
         ressources
       -->
       <section id="ressources">
+            <h2>ressources</h2>
         <p>
-          On retrouve des ressources sur <code>flexbox</code> un peu partout sur la toile.<br />
+          On retrouve des ressources sur <code>flexbox</code> un peu partout sur la toile.<br>
           Voici la liste complète organisé par thème:
         </p>
         <article>
@@ -110,14 +104,14 @@ extra_js: intro
             <li><a href="https://github.com/philipwalton/flexbugs">Flexbugs</a></li>
           </ul>
         </article>
-        <article>
+        <!-- <article>
           <h3>articles</h3>
           <ul class="column">
             <li><a href=""></a></li>
             <li><a href=""></a></li>
             <li><a href=""></a></li>
           </ul>
-        </article>
+        </article> -->
         <article>
           <h3>activités d'apprentissage</h3>
           <ul class="column">
