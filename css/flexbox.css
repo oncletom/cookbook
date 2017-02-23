@@ -76,8 +76,9 @@ header li:hover {
 h1 {
   text-transform: uppercase;
   color: #286ca7;
-  font-size: 5em;
+  font-size: 3.5em;
   margin: 0;
+  text-align: center;
 }
 h2 {
   font-size: 3em;
@@ -91,10 +92,10 @@ h3 {
   margin: 0;
 }
 section h2 {
-  margin: 0;
+  margin: 1em 0;
 }
 section h3 {
-    margin: 0 0 5em 0;
+  margin: 2em 0;
 }
 section header {
   padding: 0 0 7em;
