@@ -42,7 +42,7 @@ display: flex
   </ul>
   <p>
     De manière native <code>display: flex</code> donne une direction qui est <code>row</code> et ordonne/impose aux enfants
-    de se mettre en ligne
+    de se mettre en ligne.
   </p>
 </section>
 <!--
@@ -52,9 +52,9 @@ flex-direction
   <h2>flex-direction</h2>
   <h3>en ligne ou en colonne ?</h3>
   <p>
-    row / column<br>
-    natif: row<br>
-    +: row-reverse / column-reverse<br>
+    <code>flex-direction</code>permet de place votre enfant sur un axe vertical ou horizontal<br>
+    Nous avons donc le choix entre <code>row</code> (en ligne) ou <code>column</code>.<br>
+    Rappel: de manière native <code>row</code> est ordonné au enfant.
   </p>
   <ul class="row1">
     <li>row</li>
@@ -67,7 +67,10 @@ flex-direction
     <li>column</li>
     <li>column</li>
   </ul>
-  <p>Le petit tips est de poser sur chaque enfant un <code>min-width</code>.</p>
+  <p>
+    Le petit tips est de poser sur chaque enfant <code>column</code> un <code>min-width</code>.<br>
+    A dispo aussi <code>row-reverse</code> et <code>column-reverse</code>.
+  </p>
 </section>
 <!--
 flex-wrap
@@ -77,7 +80,7 @@ flex-wrap
   <h3>à la ligne ou non ?</h3>
   <p>
     <code>wrap</code> c'est le retour à la ligne automatique !<br>
-    de manière native nous sommes en nowrap<br>
+    de manière native nous sommes en <code>nowrap</code>
   </p>
   <ul class="row3">
     <li>nowrap</li>
@@ -89,7 +92,7 @@ flex-wrap
     <li>wrap</li>
     <li>wrap</li>
   </ul>
-  <p>Pour voir l'activation du wrap, et donc le retour à la ligne, il faut que les enfants n'est plus assez de place.</p>
+  <p>Pour voir l'activation du <code>wrap</code>, et donc le retour à la ligne, il faut que les enfants n'est plus assez de place.</p>
   <ul class="row4">
     <li>wrap, Lorem ipsum dolor sit amet</li>
     <li>wrap, consectetur adipisicing elit</li>
@@ -104,8 +107,8 @@ flex-flow
   <h2>flex-flow</h2>
   <h3>un condensé ?</h3>
   <p>
-    la version courte c'est flex-flow: flex-direction et flex-wrap<br>
-    de manière native flex-flow = row et nowrap
+    La version courte c'est <code>flex-flow</code>! il regroupe <code>flex-direction</code> et <code>flex-wrap</code>.<br>
+    Pour rappel, de manière native <code>flex-flow</code> = <code>row</code> et <code>nowrap</code>.
   </p>
   <ul class="row5">
     <li>row wrap</li>
@@ -120,8 +123,8 @@ justify-content
   <h2>justify-content</h2>
   <h3>de gauche à droite ou l'axe des X ?</h3>
   <p>
-    justify-content fait travailler (c'est illégal) les enfants sur l'horizontalité, l'axe X<br>
-    de manière native justify-content = flex-start
+    <code>justify-content</code> fait travailler (c'est illégal) les enfants sur l'horizontalité, l'axe X<br>
+    de manière native <code>justify-content</code> = <code>flex-start</code>.
   </p>
   <ul class="row6">
     <li>flex-start</li>
@@ -149,8 +152,13 @@ justify-content
     <li>space-around</li>
   </ul>
   <p>
-    Pour résumer:<br>
-    justify-content: flex-start | flex-end | center | space-between | space-around;
+    Nous avons donc à dispo:<br>
+    <code>justify-content: flex-start | flex-end | center | space-between | space-around;</code>
+  </p>
+  <h3>Petit tips:</h3>
+  <p>
+    lorsque les enfants sont aligné en <code>column</code>, l'axe principal de travail est changé.<br>
+    Nous propose de voir ce cas la plus tard ou pas: (accès direct à faire)
   </p>
 </section>
 <!--
