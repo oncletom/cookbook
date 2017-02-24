@@ -27,14 +27,14 @@ display: flex
     la propriété <code>display: flex</code> permet d'indiquer au parent qu'il va pouvoir donner des ordres aux enfants.<br>
     De manière native (de base donc) <code>display: flex</code> donne <em>déja</em> des ordres.<br>
     Elles seront explicitées à chaques propriétés.<br>
-    Cela explique d'ailleur la différence entre un <code>display: block</code>
+    Cela explique d'ailleur la différence entre un <code>display: block</code> :
   </p>
   <ul class="rowBlock">
     <li>block</li>
     <li>block</li>
     <li>block</li>
   </ul>
-  <p>et un <code>display: flex</code></p>
+  <p>Et un <code>display: flex</code> :</p>
   <ul class="row1">
     <li>row</li>
     <li>row</li>
@@ -111,10 +111,11 @@ flex-flow
     Pour rappel, de manière native <code>flex-flow</code> = <code>row</code> et <code>nowrap</code>.
   </p>
   <ul class="row5">
-    <li>row wrap</li>
-    <li>row wrap</li>
-    <li>row wrap</li>
+    <li>row + wrap</li>
+    <li>row + wrap</li>
+    <li>row + wrap</li>
   </ul>
+  <p>De manière très personnelle je préfère pour l'instant le décomposé pour que cela soit très clair dans mon code.</p>
 </section>
 <!--
 justify-content
@@ -157,7 +158,7 @@ justify-content
   </p>
   <h3>Petit tips:</h3>
   <p>
-    lorsque les enfants sont aligné en <code>column</code>, l'axe principal de travail est changé.<br>
+    Lorsque les enfants sont aligné en <code>column</code>, l'axe principal de travail est changé.<br>
     Nous propose de voir ce cas la plus tard ou pas: (accès direct à faire)
   </p>
 </section>
@@ -168,8 +169,10 @@ align-items
   <h2>align-items</h2>
   <h3>de haut en bas ou l'axe des Y ?</h3>
   <p>
-    align-items fait travailler (c'est encore illégal) les enfants sur la verticalité, l'axe Y<br>
-    de manière native align-items = stretch (min et max width sont respectées)
+    <code>align-items</code> fait travailler (c'est encore illégal) les enfants sur la verticalité, l'axe Y<br>
+    Cette réflexion sur l'axe des Y ou vertical est valide si la direction est en <code>row</code>.
+    Nous fournirons des détails plus tard.<br>
+    De manière native <code>align-items: stretch;</code> (min et max width sont respectées).
   </p>
   <ul class="row11">
     <li>flex-start</li>
@@ -213,130 +216,130 @@ align-content
   <h2>align-content</h2>
   <h3>s'organiser sur plus d'une ligne ?</h3>
   <p>
-    align-content pour faire simple c'est comme justify-content avec la place disponible en variante <br>
-    inutile s'il n'y a qu'une seule ligne ... logique ? <br>
-    rappel: justify-content fait travailler les enfants sur l'axe des X (horizontal)
+    <code>align-content</code> pour faire simple c'est comme <code>justify-content</code> avec la place disponible en variante.<br>
+    L'effet est inutile s'il n'y a qu'une seule ligne, donc en premier on vous propose de revoir l'effet de <code>justify-content</code>,
+    puis on le compare à <code>align-content</code> et on y rajoute un <code>wrap</code> pour montrer ce qu'il se pase sur plusieurs lignes.<br>
+    De manière native <code>justify-content</code> fait travailler les enfants sur l'axe des X (horizontal) lorsque nous sommes en <code>row</code> .
   </p>
-  <p>justify-content:</p>
+  <h4>justify-content:</h4>
   <ul class="row6">
     <li>flex-start</li>
     <li>flex-start</li>
     <li>flex-start</li>
     <li>flex-start</li>
   </ul>
-  <p>align-content:</p>
+  <h4>align-content:</h4>
   <ul class="row17">
     <li>flex-start</li>
     <li>flex-start</li>
     <li>flex-start</li>
     <li>flex-start</li>
   </ul>
+  <h4>align-content wrap:</h4>
   <ul class="row17 wrap">
-    <li>flex-start</li>
-    <li>flex-start</li>
-    <li>flex-start</li>
-    <li>flex-start</li>
+    <li>flex-start wrap</li>
+    <li>flex-start wrap</li>
+    <li>flex-start wrap</li>
+    <li>flex-start wrap</li>
   </ul>
-  <p>justify-content:</p>
+  <h4>justify-content:</h4>
   <ul class="row7">
     <li>flex-end</li>
     <li>flex-end</li>
     <li>flex-end</li>
     <li>flex-end</li>
   </ul>
-  <p>align-content:</p>
+  <h4>align-content:</h4>
   <ul class="row18">
     <li>flex-end</li>
     <li>flex-end</li>
     <li>flex-end</li>
     <li>flex-end</li>
   </ul>
-  <p>align-content:</p>
+  <h4>align-content wrap:</h4>
   <ul class="row18 wrap">
     <li>flex-end wrap</li>
     <li>flex-end wrap</li>
     <li>flex-end wrap</li>
     <li>flex-end wrap</li>
   </ul>
-  <p>justify-content:</p>
+  <h4>justify-content:</h4>
   <ul class="row8">
     <li>center</li>
     <li>center</li>
     <li>center</li>
     <li>center</li>
   </ul>
-  <p>align-content:</p>
+  <h4>align-content:</h4>
   <ul class="row19">
     <li>center</li>
     <li>center</li>
     <li>center</li>
     <li>center</li>
   </ul>
-  <p>align-content:</p>
+  <h4>align-content wrap:</h4>
   <ul class="row19 wrap">
     <li>center wrap</li>
     <li>center wrap</li>
     <li>center wrap</li>
     <li>center wrap</li>
   </ul>
-  <p>justify-content:</p>
+  <h4>justify-content:</h4>
   <ul class="row9">
     <li>space-between</li>
     <li>space-between</li>
     <li>space-between</li>
     <li>space-between</li>
   </ul>
-  <p>align-content:</p>
+  <h4>align-content:</h4>
   <ul class="row20">
     <li>space-between</li>
     <li>space-between</li>
     <li>space-between</li>
     <li>space-between</li>
   </ul>
-  <p>align-content:</p>
+  <h4>align-content wrap:</h4>
   <ul class="row20 wrap">
     <li>space-between wrap</li>
     <li>space-between wrap</li>
     <li>space-between wrap</li>
     <li>space-between wrap</li>
   </ul>
-  <p>justify-content:</p>
+  <h4>justify-content:</h4>
   <ul class="row10">
     <li>space-around</li>
     <li>space-around</li>
     <li>space-around</li>
     <li>space-around</li>
   </ul>
-  <p>align-content :</p>
+  <h4>align-content :</h4>
   <ul class="row21">
     <li>space-around</li>
     <li>space-around</li>
     <li>space-around</li>
     <li>space-around</li>
   </ul>
-  <p>align-content :</p>
+  <h4>align-content wrap:</h4>
   <ul class="row21 wrap">
     <li>space-around wrap</li>
     <li>space-around wrap</li>
     <li>space-around wrap</li>
     <li>space-around wrap</li>
   </ul>
-  <p>align-content :</p>
+  <h4>justify-content :</h4>
+  <p>Pas de <code>stretch</code> avec <code>justify-content</code></p>
+  <h4>align-content :</h4>
   <ul class="row22">
     <li>stretch</li>
     <li>stretch</li>
     <li>stretch</li>
     <li>stretch</li>
   </ul>
-  <p>align-content :</p>
+  <h4>align-content :</h4>
   <ul class="row22 wrap">
     <li>stretch wrap</li>
     <li>stretch wrap</li>
     <li>stretch wrap</li>
     <li>stretch wrap</li>
   </ul>
-  <p>
-    Pour résumer:<br>
-    align-content: flex-start | flex-end | center | space-between | space-around | stretch;<br>
-  </p>
 </section>
