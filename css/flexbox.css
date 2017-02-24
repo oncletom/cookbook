@@ -39,9 +39,13 @@ ul {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 ul p {
-  margin-left: 1em;
+  margin: 1em 1em;
   text-transform: uppercase;
   font-size: 1.15em;
+}
+li > code {
+  margin-left: 0.5em;
+  background-color: #A0C5E4;
 }
 code {
   font-size: 1.3em;
@@ -60,6 +64,7 @@ li,
 }
 .enfant {
   display: inline-block;
+  margin-left: 1.85em;
 }
 main a {
   text-decoration: none;
@@ -77,7 +82,7 @@ h1 {
   text-transform: uppercase;
   color: #286ca7;
   font-size: 3.5em;
-  margin: 0;
+  margin: 2em 0 0 0;
   text-align: center;
 }
 h2 {
@@ -90,6 +95,12 @@ h3 {
   font-size: 1.5em;
   text-align: center;
   margin: 0;
+}
+h4 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin: 2em 0 1em 1.5em;
+  color: #286ca7;
 }
 section h2 {
   margin: 1em 0;
