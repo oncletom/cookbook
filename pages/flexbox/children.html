@@ -80,21 +80,27 @@ flex-basis
 -->
 <section id="flexBasis">
   <h2>flex-basis</h2>
-  <h3>pourquoi pas !</h3>
+  <h3>width et height reinventé ?</h3>
   <p>
-    Basis travaille sur ???, il répartie ??? selon l'indice ???<br>
-    Par défault basis = ???
+    Basis travaille sur <code>width</code> ou <code>height</code> la hauteur selon que l'orientation soit <code>row</code> ou <code>column</code><br>
+    Par défault <code>flex-basis</code> est en <code>auto</code>.<br>
   </p>
   <ul class="row28">
-    <li>effet basis: auto</li>
-    <li>aucun effet</li>
-    <li>aucun effet</li>
+    <li>auto</li>
+    <li>fill</li>
+    <li>content</li>
+    <li>voici l'exemple avec min-content</li>
+    <li>voici l'exemple sans min-content</li>
   </ul>
   <ul class="row29">
-    <li>effet basis: 1</li>
-    <li>aucun effet</li>
+    <li>basis: 15em</li>
+    <li>basis: 30em</li>
     <li>aucun effet</li>
   </ul>
+  <p>
+    les principales valeurs pour vous amuser à tester sont:
+    <code>auto · value · fill · min-content</code>
+  </p>
 </section>
 <!-- flex-order -->
 <section id="order">
