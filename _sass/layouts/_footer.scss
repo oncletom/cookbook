@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.site-footer {
+  padding: 20px 0;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

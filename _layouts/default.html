@@ -9,11 +9,16 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content }}
-
 
         {% unless page.id %}
-        {% include aside.html %}
+        <section class="home-wrapper">
+          {% endunless %}
+          
+          {{ content }}
+
+          {% unless page.id %}
+          {% include aside.html %}
+        </section>
         {% endunless %}
       </div>
     </main>

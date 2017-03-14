@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+
+.home-wrapper {
+  display: flex;
+  
+  .home {
+  flex-basis: 70%;  
+  }
+  
+  aside {
+    flex-basis: 30%;
+  }
+}
