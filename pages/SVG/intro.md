@@ -135,6 +135,14 @@ Il s'agit à la base d'un [package Node](https://github.com/svg/svgo), mais il a
 
 **=> Ces 2 derniers types d'insertion ne permettent pas de les modifier à posteriori**
 
+### Dans le code directement 
+
+```<div><svg></svg></div>```
+Là le CSS externe s'appliquera, mais ça allourdit le HTML et l'image ne sera pas mise en cache
+
+### ``<object>``
+ ```<object data="mon.svg" type="image/svg+xml"></object>```
+ 
 # A traiter
 
 Chrome taille par défaut 300 x 150
