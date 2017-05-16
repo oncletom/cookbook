@@ -1,26 +1,29 @@
 var ulNav = document.getElementsByClassName('row0');
 var liNav = ulNav[0].getElementsByTagName('li');
 
-var displayFlex = document.getElementById('displayFlex');
+var displayFlex = document.querySelector('#displayFlex');
 var posDisplayFlex = displayFlex.offsetTop;
 
-var flexDirection = document.getElementById('flexDirection');
+var flexDirection = document.querySelector('#flexDirection');
 var posFlexDirection = flexDirection.offsetTop;
 
-var flexWrap = document.getElementById('flexWrap');
+var flexWrap = document.querySelector('#flexWrap');
 var posFlexWrap = flexWrap.offsetTop;
 
-var flexFlow = document.getElementById('flexFlow');
+var flexFlow = document.querySelector('#flexFlow');
 var posFlexFlow = flexFlow.offsetTop;
 
-var justifyContent = document.getElementById('justifyContent');
+var justifyContent = document.querySelector('#justifyContent');
 var posJustifyContent = justifyContent.offsetTop;
 
-var alignItems = document.getElementById('alignItems');
+var alignItems = document.querySelector('#alignItems');
 var posAlignItems = alignItems.offsetTop;
 
-var alignContent = document.getElementById('alignContent');
+var alignContent = document.querySelector('#alignContent');
 var posAlignContent = alignContent.offsetTop;
+
+var chapter = document.querySelector('#chapter');
+var posChapter = chapter.offsetTop;
 
 window.onscroll = function () {
   var scroll = window.scrollY;
@@ -50,8 +53,12 @@ window.onscroll = function () {
     liNav[4].removeAttribute('class', 'activ');
     liNav[5].setAttribute('class', 'activ');
     liNav[6].removeAttribute('class', 'active');
-  } else if (scroll >= posAlignContent) {
+  } else if (scroll >= posAlignContent  && scroll < (posChapter - 300)) {
     liNav[5].removeAttribute('class', 'activ');
     liNav[6].setAttribute('class', 'activ');
+    liNav[7].removeAttribute('class', 'activ');
+  } else {
+    liNav[6].removeAttribute('class', 'activ');
+    liNav[7].setAttribute('class', 'activ');
   }
 };

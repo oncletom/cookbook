@@ -1,20 +1,23 @@
 var ulNav = document.getElementsByClassName('row0');
 var liNav = ulNav[0].getElementsByTagName('li');
 
-var flexGrow = document.getElementById('flexGrow');
+var flexGrow = document.querySelector('#flexGrow');
 var posFlexGrow = flexGrow.offsetTop;
 
-var flexShrink = document.getElementById('flexShrink');
+var flexShrink = document.querySelector('#flexShrink');
 var posFlexShrink = flexShrink.offsetTop;
 
-var flexBasis = document.getElementById('flexBasis');
+var flexBasis = document.querySelector('#flexBasis');
 var posFlexBasis = flexBasis.offsetTop;
 
-var order = document.getElementById('order');
+var order = document.querySelector('#order');
 var posOrder = order.offsetTop;
 
-var alignSelf = document.getElementById('alignSelf');
+var alignSelf = document.querySelector('#alignSelf');
 var posAlignSelf = alignSelf.offsetTop;
+
+var chapter = document.querySelector('#chapter');
+var posChapter = chapter.offsetTop;
 
 window.onscroll = function () {
   var scroll = window.scrollY;
@@ -36,8 +39,12 @@ window.onscroll = function () {
     liNav[2].removeAttribute('class', 'activ');
     liNav[3].setAttribute('class', 'activ');
     liNav[4].removeAttribute('class', 'activ');
-  } else if (scroll > posAlignSelf) {
-    liNav[4].setAttribute('class', 'activ');
+  } else if (scroll > posAlignSelf  && scroll < (posChapter - 300)) {
     liNav[3].removeAttribute('class', 'activ');
+    liNav[4].setAttribute('class', 'activ');
+    liNav[5].removeAttribute('class', 'activ');
+  } else {
+    liNav[4].removeAttribute('class', 'active');
+    liNav[5].setAttribute('class', 'activ');
   }
 };

@@ -1,10 +1,12 @@
 ---
 layout: flexbox
 title: Flexbox - les enfants se rebellent
-permalink: /flexbox/children
+permalink: /flexbox/advanced
 extra_css: flexbox
-extra_js: children
+extra_js: advanced
 exclude: true
+aside: true
+title_aside: Flexbox
 ---
 <nav>
   <ul class="row0">
@@ -13,6 +15,7 @@ exclude: true
     <li><a href="#flexBasis">flex-basis</a></li>
     <li><a href="#order">order</a></li>
     <li><a href="#alignSelf">align-self</a></li>
+    <li><a href="#chapter">chapitres</a></li>
   </ul>
 </nav>
 <!--
@@ -22,8 +25,8 @@ flex-grow
   <h2>flex-grow</h2>
   <h3>l'espace positif</h3>
   <p>
-    Qu'est ce que l'espace positif ?
-    l'espace positif est l'espace qui de disponible dans le conteneur, en largeur si row, en hauteur si column<br>
+    Qu'est ce que l'espace positif ?<br>
+    l'espace positif est l'espace qui reste disponible dans le conteneur, en largeur si row, en hauteur si column
   </p>
   <ul class="row1">
     <li>aucun effet</li>
@@ -31,11 +34,12 @@ flex-grow
     <li>aucun effet</li>
   </ul>
   <p>
-    Grow travaille sur cet espace positif, il va le prendre puis le répartir parmi tout les enfants<br>
-    D'où le fait que grow agrandisse vos enfants<br>
-    Il va faire selon selon un indice et par default grox = 0<br>
-    Cela explique pourquoi si un seul des enfants porte un grow de 1 ou +, cela ne change rien, car c'est lui<br>
-    récupère tout l'espace diponible, les autres étant à 0<br>
+    Grow travaille sur cet espace positif, il va le prendre puis le répartir parmi tout les enfants, d'où le fait que grow agrandisse vos enfants<br>
+    Il va faire selon selon un indice et par default <code>grox = 0</code>
+  </p>
+  <p>
+    Cela explique pourquoi si un seul des enfants porte un <code>grow</code> ave une valeur de 1 ou +, cela ne change rien.<br>
+    C'est bien lui qui récupère tout l'espace diponible, les autres enfants étant avec un indice de 0<br>
   </p>
   <ul class="row23">
     <li>effet grow: 1</li>
@@ -60,10 +64,10 @@ flex-shrink
   <h2>flex-shrink</h2>
   <h3>l'espace négatif</h3>
   <p>
-    Shrink est l'opposé de Grow, lui travaille avec l'espace négatif, mais c'est quoi l'espace négatif ?<br>
-    l'espace négatif est l'espace qui va se réduire lorsque vous allez redimentionner la page (selon l'axe<br>
-    de travail (row ou column).<br>
-    Cet espace, se réduisant, va se répartir sur les enfant selon un indice qui de base est à 0<br>
+    <code>Shrink</code> est l'opposé de <code>Grow</code>, il travaille avec l'espace négatif.<br>
+    L'espace négatif est l'espace qui va se réduire lorsque vous allez redimentionner la page (selon l'axe
+    de travail (<code>row</code> ou <code>column</code>).<br>
+    l'espace réduisant va se répartir sur les enfant selon un indice qui de base est à 0<br>
   </p>
   <ul class="row26">
     <li>effet shrink: 2</li>
@@ -117,7 +121,7 @@ flex-basis
     <li>child 2</li>
     <li>child 3</li>
   </ul>
-  <p>Modifions les valeurs pour que child 3 est un order à -1 et child 2 un order à 1</p>
+  <p>Modifions les valeurs pour que child 3 est un <code>order</code> à -1 et child 2 un <code>order</code> à 1</p>
   <ul class="row30">
     <li>child 1 (sans order)</li>
     <li>child 2 (order: 1)</li>
@@ -132,9 +136,7 @@ align-self
   <h3>l'alignement rebelle</h3>
   <p>
     <code>align-self</code> permet à un enfant de prendre la position qu'il souhaite<br>
-    Au choix, nous avons :<br>
-    <code>align-self: auto | flex-start | flex-end | center | baseline | stretch;</code><br>
-    Testons de modifier le deuxième enfant uniquement:
+    <p>Testons de modifier le deuxième enfant uniquement:</p>
   </p>
   <ul class="row31">
     <li>child 1</li>
@@ -166,11 +168,15 @@ align-self
     <li>child 2 - stretch</li>
     <li>child 3</li>
   </ul>
+  <h4>Tips</h4>
+  <p><code>align-self: auto | flex-start | flex-end | center | baseline | stretch;</code></p>
+</section>
+<section id="chapter" class="footerNav">
   <footer class="chapitreNav">
     <ul>
       <li><a href="intro.html">Introduction</a></li>
       <li><a href="base.html">Les parents</a></li>
-      <li><a href="#">Les enfants</a></li>
+      <li><a href="advanced.html">Les enfants</a></li>
     </ul>
   </footer>
 </section>
