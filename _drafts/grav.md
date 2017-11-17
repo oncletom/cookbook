@@ -13,17 +13,30 @@ MAMP ou (tuto en ligne)[https://learn.getgrav.org/basics/installation]
 
 ### En ligne
 
-FTP pour OVH, (automatiser ?)
+FTP (SCP) pour OVH
 
-Heroku pour staging, sync avec github (billet ?)
+Heroku pour staging, sync avec github 
+
+1. créer le repo heroku
+1. activer le lien Heroku/GitHub
+1. cocher "auto deploy"
+
+--> regarder les [Deploy Button][] d'Heroku
+
+À partir de là :
+
+- les modifications se font sur GitHub
+- les changements sont répercutés sur la plate-forme d'hébergement (oVH, Heroku etc.)
 
 ## configuration de base
 
 ### L'admin en Français
 
+![illustrer le minimum à remplir pour avoir un site fonctionnel](#)
+
 Défini par l'utilisateur : clique sur le nom de l'utilisateur, puis choisir la langue
 
-### Configuration du site
+### votre site
 
 Dans `Configuration` / `Site`
 
@@ -32,6 +45,28 @@ Dans `Configuration` / `Site`
 * Auteur par défaut  
 * E-mail par défaut
 
-## Multi langue
+### choisir un thème
 
-## Thème
+![interface de choix de thème pour trouver un truc](#)
+
+
+## contenus
+
+(ces opérations se font depuis l'interface d'administration)
+
+### pages
+
+1. titre
+1. nom du dossier
+1. type de template (voir [choisir un thème](#))
+1. arborescence (voir [arborescence](#))
+
+### arborescence
+
+Comment tu disposes tes contenus dans le site.
+
+(des conseils ?)
+
+
+
+[Deploy Button]: https://devcenter.heroku.com/articles/heroku-button
